@@ -2,31 +2,223 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+body {
+  font-family: "Nirmala UI";
+  background: url(./Backgrounds/wallpaper_800x600_773.jpg);
+  background-repeat: repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.thumbnail img {
+	width: 100%;
+	position: relative;		
 }
 
-.App-link {
-  color: #61dafb;
+.thumbnail {
+	background-color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+label {
+	font-weight: normal;	
+}
+
+#logo {
+	height: 150%;
+    margin-bottom: 10px;
+    margin-top: -4px;
+}
+
+.wrapper-margin {
+	margin-top: 5%;	
+}
+
+.jumbotron { 
+	background-color:#006495;
+	color: #F4D00C;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+@media (max-width: 1199px) {
+  .tech-container1 {
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #000;
+    padding: 2%;
+    color: #FFF;
   }
-  to {
-    transform: rotate(360deg);
+  .tech-container2 {
+    margin: 0;
+  background-color: #E0A025;
+  padding: 2%;
+  }
+  .tech-container3 {
+    margin: 0;
+  background-color: #F2635F;
+  padding: 2%;
+  }
+  .tech-container4 {
+    margin: 0;
+  background-color: #E0A025;
+  padding: 2%;
+  }
+  .tech-container5 {
+    margin: 0;
+  background-color: #0093D1;
+  padding: 2%;
+  }
+  .footer-columnpadding {
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .index-footer-columnpadding {
+    padding: 0;
+    bottom: 0;
+    width: 100%;
   }
 }
+
+/* Screen = 1200px Size or more */
+@media (min-width: 1200px) {
+.tech-container1 {
+  padding: 2%; 
+  background-color: #000; 
+  margin-top: 10%;
+  color: #FFF;
+}
+.tech-container2 {
+  padding: 2%; 
+  background-color: #E0A025; 
+  margin-top: 2%;
+}
+.tech-container3 {
+  padding: 2%; 
+  background-color: #F2635F; 
+  margin-top: 7%;
+}
+.tech-container4 {
+  padding: 2%; 
+  background-color: #E0A025; 
+  margin-top: 10%;
+}
+.tech-container5 {
+  padding: 2%; 
+  background-color: #0093D1; 
+  margin-top: 14%;
+}
+
+.support-desc {
+  float: right;
+}
+
+.support-form {
+  float: left;	
+}
+
+  .footer-columnpadding {
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .index-footer-columnpadding {
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+/* Carousel Style */
+.carousel {
+	height: 500px;
+  margin-bottom: 60px;
+  background-repeat: repeat;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #F4D00C;
+}
+
+.carousel-indicators li {
+  color: #F4D00C;
+  border-color: #F4D00C;
+}
+
+.carousel-indicators li.active {
+  background-color: #006495;
+}
+
+.carousel .item {
+  height: 500px;	
+   background: url(./Backgrounds/Aero-Glass.jpg);
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.slide-content {
+  color: #FFF;
+}
+
+.slide-content p {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.slide-content2 {
+  color: #FFF;
+  text-align: center;
+}
+
+.slide-content2 p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.slide-wrapper {
+  margin-top: 10%;
+}
+
+.slide-thumb {
+  max-height: 300px;
+  width: 100%;
+  background-color: #F4D00C;
+}
+
+.slide-image .slide-thumb img {
+  max-height: 290px;	
+  width: 100%;
+}
+
+	/* Carousel Indicator Style */
+	#carouselcontainer1 {
+		background-color: #E0A025; 
+		border-color: #F4D00C;
+	}
+	
+	#carouselcontainer2 {
+		background-color: #F2635F; 
+		border-color: #F4D00C;
+	}
+	
+	#carouselcontainer3 {
+		background-color: #0093D1; 
+		border-color: #F4D00C;
+	}
+	/* Carousel Indicator Style End */
+/* End of Carousel Style */
+

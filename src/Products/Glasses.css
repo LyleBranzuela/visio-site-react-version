@@ -1,0 +1,69 @@
+/* Shopping List Style */
+.thumbnail {
+	background-color: #333;
+}
+
+.shop-listing {
+	position: relative;
+	width: 250px;
+	height: 250px;
+}
+
+.shop-listing h4 {
+	position: absolute; /* To position the text at the absolutely at the top of the image */
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.shop-listing .list-text { /* general rule for price and glasstype */
+	position: absolute; 
+    width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.shop-listing .price {
+	right: 0;
+	bottom: 0;
+	color: #F4D00C;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.shop-listing .glasstype {
+	position: absolute; 
+	left: 0;
+	bottom: 0;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.shop-listing img { /* Makes the images fit the thumbnail */
+	height: 240px; 
+	width: 240px;	
+}
+
+.glasses {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+/* Font Styles */
+.zeniac-font-color {
+	color:#E0A025;	
+}
+
+.noctem-font-color {
+	color: #F2635F;
+}
+
+.z2cloud-font-color {
+	color: #0093D1;
+}
+
+.currency-font-color {
+	color: #F4D00C;
+}
+/* Shopping List Style End */
